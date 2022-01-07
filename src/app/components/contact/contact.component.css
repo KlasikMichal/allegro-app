@@ -1,0 +1,10 @@
+.contact {
+    width: 100vw;
+    height: 52vh;
+    margin: 100px;
+}
+p {
+    color: #E6E6E0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}

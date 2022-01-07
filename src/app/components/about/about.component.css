@@ -1,0 +1,17 @@
+.about {
+    display: flex;
+    height: 76vh;
+    width: 100vw;
+}
+
+.text {
+    flex: 1;
+    color: #E6E6E0;
+    font-size: 1.5rem;
+    margin: 100px;
+    line-height: 2rem;
+}
+
+.photo {
+    flex: 1;
+}
