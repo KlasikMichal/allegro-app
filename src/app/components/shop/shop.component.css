@@ -1,3 +1,59 @@
-.shop {
-    height: 78.5vh;
+.main {
+    width: 100vw;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+}
+
+.icon {
+    margin-left: 5px;
+    margin-top: 3px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #ff5A00;
+}
+
+.product {
+    margin-left: 10px;
+    height: 37vh;
+    width: 40vw;
+    display: flex;
+}
+
+.img {
+    flex:1;
+    text-align: center;
+    height: 35vh;
+    width: 16vw;
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 35vh;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.content {
+    margin-left: 10px;
+    flex:1;
+    display: flex;
+}
+
+.name {
+    flex:1;
+    font-size: 16px;
+    color: #e6e6e6;
+}
+
+.price {
+    flex:1;
+    font-size: 20px;
+    color: #ff5A00;
 }

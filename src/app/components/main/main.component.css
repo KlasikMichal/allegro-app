@@ -26,13 +26,12 @@ main {
 
 .start {
     flex: 80%;
-
 }
 
 p {
-    color: rgb(230,230,230);
+    color: #e6e6e6;
     font-size: 3rem;
-    background-color:rgb(63,61,86);
+    background-color:#3f3d56;
     width: 200px;
     text-align: center;
     padding: 20px;

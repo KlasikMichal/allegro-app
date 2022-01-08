@@ -1,1 +1,17 @@
-<div class="shop"></div>
+<div class="main">
+    <div class="search"> <input [value]='text' (click)="clear()" (input)="inputText($event)"><div (click)="search()"><mat-icon class="icon">search</mat-icon> </div></div>
+    <div class = "product" *ngFor= 'let product of products'>
+        <div class="img"> <img src="{{product.images[0].url}}"> </div>
+        <div class="content"> 
+            <div class="name">{{product.name}} 
+                
+            </div>
+            <div class="price">
+                {{product.sellingMode.price.amount}}
+                {{product.sellingMode.price.currency}}
+            </div>
+        </div>
+    </div>
+</div>
+
+

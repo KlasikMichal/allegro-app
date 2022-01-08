@@ -1,6 +1,5 @@
 .about {
     display: flex;
-    height: 76vh;
     width: 100vw;
 }
 
@@ -14,4 +13,11 @@
 
 .photo {
     flex: 1;
+}
+
+img {
+    margin-right: 30px;
+    margin-top: 70px;
+    max-width: 70%;
+    border-radius: 20px;
 }

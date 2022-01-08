@@ -1,16 +1,16 @@
 header {
-  display: flex;
+  margin-top: 20px;
   height: 100px;
   width: 100%;
+  display: flex;
   justify-content: space-between;
-  margin-top: 20px;
   align-items: center;
 }
 
 a {
-  color: rgb(230,230,230);
+  color: #e6e6e6;
   text-decoration: none;
-  background-color:rgb(63,61,86);
+  background-color:#3f3d56;
   width: 100px;
   text-align: center;
   padding-top: 20px;
@@ -18,19 +18,17 @@ a {
 }
 
 
-.logo{
-
+.logo {
   margin-left: 15vw;
 }
 
 .logo:hover .hide {
-    display: block;
+  display: block;
 }
 
 
 .icon:hover{
   cursor: pointer;
-  
 }
 
 .icon {
@@ -54,7 +52,7 @@ a {
 }
 
 .contact {
-  padding: 0 5px;
+  padding: 10px;
 }
 
 .contact:hover {
@@ -62,8 +60,8 @@ a {
 }
 
 .about {
-  padding: 0 5px;
-  white-space: nowrap
+  padding: 10px;
+  white-space: nowrap;
 }
 
 .about:hover {
